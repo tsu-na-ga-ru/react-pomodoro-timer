@@ -1,0 +1,33 @@
+.preferences
+  z-index: 200
+  position: absolute
+  display: none
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  background-color: #404D5D
+  border-radius: 50px
+  ox-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+
+
+  &__pane
+    background-color: #404D5D
+    position: relative
+    border-radius: 50px
+    margin: auto
+    transition: 3.25s all ease-in-out
+    color: #ffffff
+
+
+@keyframes fade
+  0%
+    opacity: 0%
+  100%
+    opacity: 100%
+.preferences--visible
+  display: block
+  animation-name: fade
+  animation-timing-function: ease-in-out
+  animation-duration: 0.15s
+
