@@ -8,7 +8,6 @@
   height: 100%
   background-color: #404D5D
   border-radius: 50px
-  ox-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 
 
   &__pane
@@ -16,8 +15,11 @@
     position: relative
     border-radius: 50px
     margin: auto
+    padding: 30px
     transition: 3.25s all ease-in-out
     color: #ffffff
+
+
 
 
 @keyframes fade
@@ -30,4 +32,29 @@
   animation-name: fade
   animation-timing-function: ease-in-out
   animation-duration: 0.15s
+
+label
+  font-style: normal
+  font-weight: bold
+  font-size: 16px
+  line-hight: 1.25em
+
+input
+  width: 60px
+  height: 20px
+  margin-left: 20px
+  padding-left: 20px
+  border: none
+  border-radius: 10px
+  font-size: 16px
+  line-hight: 1.25em
+  color: #1e213f
+
+.time-setting__form
+  display: flex
+  flex-direction: column
+  justify-content: right
+  align-items: center
+  row-gap: 10px
+
 
